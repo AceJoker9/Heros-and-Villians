@@ -1,5 +1,5 @@
 from django.db import models
-from hero_types.models import Super_types
+
 
 
 
@@ -10,7 +10,7 @@ class Super(models.Model):
     primary_ability = models.CharField(max_length=255)
     secondary_ability = models.CharField(max_length=255)
     catch_phrase = models.CharField(max_length=255)
-    super_types = models.ForeignKey(Super_types, on_delete=models.CASCADE)
-
     
+
+
     
