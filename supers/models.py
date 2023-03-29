@@ -3,6 +3,8 @@ from django.db import models
 
 
 
+
+
 # Create your models here.
 class Super(models.Model): 
     name = models.CharField(max_length=255)

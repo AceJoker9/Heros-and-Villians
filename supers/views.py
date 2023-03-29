@@ -23,4 +23,4 @@ def super_list(request):
         serializer.save()
         return Response(serializer.data, status=status.HTTP_201_CREATED)
     
-    
+
